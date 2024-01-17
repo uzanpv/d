@@ -180,6 +180,10 @@ class QuoraAutomation:
             driver.get(self.space)       
             print(driver)
             try:
+                driver.save_screenshot("screen.png")
+            except:
+                pass
+            try:
                 driver.save_screenshot(f"{proxy.split(':')[2]}".png)
             except:
                 pass
