@@ -25,10 +25,6 @@ import json
 import chromedriver_autoinstaller
 from datetime import datetime
 
-try:
-    chromedriver_autoinstaller.install()
-except:
-    pass
 
 
 https = ["https://raw.githubusercontent.com/zloi-user/hideip.me/main/https.txt",
